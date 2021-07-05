@@ -1,0 +1,24 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-bottom: .5rem;
+    padding: 1rem;
+    background: #212121;
+}
+
+.nav-bar button {
+    text-decoration: underline;
+    background: #f2f2f2;
+    font: 700 2rem 'Roboto Mono', monospace;
+    border: .2rem solid #f2f2f2;
+    cursor: pointer;
+}
+
+.nav-bar button:hover {
+    transform: scale(1.05);
+    opacity: .7;
+    color: #f2f2f2;
+    background: #212121;
+}

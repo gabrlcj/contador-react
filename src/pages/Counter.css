@@ -1,0 +1,32 @@
+body {
+    background: #121212;
+}
+
+.counter {
+    width: 50%;
+    margin: 0 auto;
+    background: #121212;
+    color: #f8f9fa;
+    text-align: center;
+    padding: .5rem 3rem 2rem;   
+}
+
+.counter span {
+    display: block;
+    color: #f8f9fa;
+    background: #515151;
+    font: 700 5rem 'Roboto Mono', monospace;
+    border: .3rem solid #f8f9fa;
+}
+
+.counter button {
+    padding: 2rem;
+    font-size: 2rem;
+    width: 50%;
+
+    background: #121212;
+    border: .3rem solid #f8f9fa;
+    color: #f8f9fa;
+    cursor: pointer;
+    font: 400 2rem 'Roboto Mono', monospace;
+}

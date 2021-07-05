@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: 700 2rem 'Roboto Mono', monospace;
+    color: #d3d3d3;
+    background: #121212;
+}
+
+.header h1 {
+    border-bottom: .5rem solid #d8d8d8;
+}
+
+.header h1:hover {
+    color: #ffa6a6;
+    border-bottom: .5rem solid #ffa6a6;
+}

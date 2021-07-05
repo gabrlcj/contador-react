@@ -1,0 +1,12 @@
+.album {
+    font: 700 1rem 'Roboto Mono', monospace;
+    background: #f8f9fa;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: left;
+    margin: 0 auto;
+}
